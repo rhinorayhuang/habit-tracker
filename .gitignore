@@ -1,0 +1,25 @@
+# 環境變數與密鑰
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Go
+api/bin/
+*.exe
+*.test
+*.out
+coverage.*
+
+# Node / Vue
+node_modules/
+web/dist/
+*.log
+
+# 編輯器與系統
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
